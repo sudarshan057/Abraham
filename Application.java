@@ -8,6 +8,23 @@
     ansible.builtin.yum:
       name: httpd
       state: latest
+Playbook syntax
+
+Playbook execution
+
+Task execution
+
+Desired state and ‘idempotency’
+
+Running playbooks
+
+Running playbooks in check mode
+
+Ansible-Pull
+
+Verifying playbooks
+
+ansible-lint
 
   - name: Write the apache config file
     ansible.builtin.template:
