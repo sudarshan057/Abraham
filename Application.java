@@ -27,6 +27,7 @@ Verifying playbooks
 ansible-lint
 
   - name: Write the apache config file
+  
     ansible.builtin.template:
       src: /srv/httpd.j2
       dest: /etc/httpd.conf
@@ -34,3 +35,4 @@ ansible-lint
 - name: Update db servers
   hosts: databases
   remote_user: root
+  Dillip kumar,rakesh
